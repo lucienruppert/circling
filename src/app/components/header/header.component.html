@@ -1,0 +1,19 @@
+<div class="header-container">
+  <span class="brand-identity" class="logo" routerLink="/">Circling.hu</span>
+  <nav>
+    <span class="icon" routerLink="/">
+      <mat-icon
+        [fontIcon]="showHamburger ? 'menu' : 'close'"
+        (click)="toggleMenu()"
+      ></mat-icon>
+    </span>
+    <div class="menu" [class.is-open]="showHamburger">
+      <button mat-button routerLink="aboutme">Rólam</button>
+      <button mat-button routerLink="aboutthemethods">Módszerek</button>
+      <button mat-button routerLink="couple">Pároknak</button>
+      <button mat-button routerLink="events">Csoportos</button>
+      <button mat-button routerLink="oneonone">Egyéneknek</button>
+      <button mat-button routerLink="videos">Kisvideók</button>
+    </div>
+  </nav>
+</div>

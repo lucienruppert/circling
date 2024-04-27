@@ -1,0 +1,38 @@
+:host {
+  @apply flex justify-center items-center h-16;
+}
+.header-container {
+  @apply flex justify-between items-center w-2/3;
+}
+.brand-identity {
+  @apply flex items-center;
+}
+.logo {
+  @apply w-40 cursor-pointer mr-5;
+}
+.icon {
+  @apply hidden;
+}
+.menu {
+  @apply flex justify-between py-2;
+}
+button {
+  @apply text-sm px-3 hover:text-white;
+}
+@media (max-width: 500px) {
+  :host {
+    @apply border-b-0 items-start;
+  }
+  .header-container {
+    @apply w-full px-5 pt-2;
+  }
+  .icon {
+    @apply flex justify-end cursor-pointer pt-1;
+  }
+  .menu {
+    @apply flex flex-col;
+  }
+  .menu.is-open {
+    @apply hidden;
+  }
+}
