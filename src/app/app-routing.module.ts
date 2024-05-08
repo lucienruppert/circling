@@ -1,10 +1,8 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
-import { AboutmeComponent } from './components/aboutme/aboutme.component';
-import { AboutMethodsComponent } from './components/aboutmethods/aboutmethods.component';
-import { CoupleComponent } from './components/couple/couple.component';
-import { OneOnOneComponent } from './components/oneonone/oneonone.component';
+import { AboutComponent } from './components/about/about.component';
+import { MethodComponent } from './components/method/method.component';
 import { VideosComponent } from './components/videos/videos.component';
 import { EventsComponent } from './components/events/events.component';
 
@@ -14,20 +12,12 @@ const routes: Routes = [
     component: HomeComponent,
   },
   {
-    path: 'aboutme',
-    component: AboutmeComponent,
+    path: 'about',
+    component: AboutComponent,
   },
   {
-    path: 'aboutthemethods',
-    component: AboutMethodsComponent,
-  },
-  {
-    path: 'couple',
-    component: CoupleComponent,
-  },
-  {
-    path: 'oneonone',
-    component: OneOnOneComponent,
+    path: 'method',
+    component: MethodComponent,
   },
   {
     path: 'videos',

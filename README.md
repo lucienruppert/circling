@@ -1,3 +1,5 @@
+## Legyen a  mobilmenu sidebaros
+
 
 Háttérszín
 Mobilnézet: Circling felirat ugrál
