@@ -9,7 +9,7 @@ import { EventsComponent } from './components/events/events.component';
 const routes: Routes = [
   {
     path: '',
-    component: HomeComponent,
+    component: VideosComponent,
   },
   {
     path: 'about',
@@ -27,10 +27,11 @@ const routes: Routes = [
     path: 'events',
     component: EventsComponent,
   },
+  { path: '**', redirectTo: '' },
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  imports: [RouterModule.forRoot(routes, { useHash: true })],
+  exports: [RouterModule],
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}

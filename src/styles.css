@@ -11,6 +11,17 @@ body {
   height: 100%;
   margin: 0;
 }
+
 body {
   font-family: Roboto, "Helvetica Neue", sans-serif;
 }
+
+.cdk-overlay-dark-backdrop {
+  background: rgba(33,33,33,255);
+}
+
+/* cdk-dialog-container {
+  position: fixed;
+  top: 50%;
+  left: calc(50% - 144px);
+} */

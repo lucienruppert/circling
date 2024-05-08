@@ -1,3 +1,4 @@
 :host {
-  @apply flex flex-col items-center h-screen;
+  @apply flex flex-col items-center;
+  height: calc(100vh - 60px);
 }

@@ -1,12 +1,6 @@
-## Legyen a  mobilmenu sidebaros
+## TEENDŐK
 
+- flex responsivitást megcsinálni a beloopolt videóknál.
+- Belistázni az összes videót. 
+- favicon
 
-Háttérszín
-Mobilnézet: Circling felirat ugrál
-
-Menu + harmburger
-Kisvideók
-Rólam
-Módszer
-Események
-Egyéni és párkapcsolati Circling

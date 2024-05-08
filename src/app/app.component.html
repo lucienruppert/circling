@@ -9,13 +9,13 @@
       >
         <mat-icon>menu</mat-icon>
       </button>
-      <span routerLink="/" class="cursor-pointer">Circling</span>
+      <span routerLink="/" class="cursor-pointer brand">Circling és Authentic Relating</span>
       <span class="menu-spacer"></span>
       <div fxShow="true" fxHide.lt-md>
-        <button mat-button routerLink="about">Rólam</button>
+        <button mat-button routerLink="about">Utam</button>
         <button mat-button routerLink="method">Módszer</button>
+        <button mat-button routerLink="videos">Gondolatébresztők</button>
         <button mat-button routerLink="events">Események</button>
-        <button mat-button routerLink="videos">Videók</button>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>
@@ -23,12 +23,10 @@
   <mat-sidenav-container>
     <mat-sidenav #sidenav>
       <mat-nav-list>
-        <button routerLink="about">Rólam</button>
-        <button routerLink="method">Módszer</button>
-        <button routerLink="oneonone">Egyéneknek</button>
-        <button routerLink="couple">Pároknak</button>
-        <button routerLink="events">Események</button>
-        <button routerLink="videos">Videók</button>
+        <button routerLink="about" (click)="sidenav.toggle()">Rólam</button>
+        <button routerLink="method" (click)="sidenav.toggle()">Módszer</button>
+        <button routerLink="videos" (click)="sidenav.toggle()">Gondolatébresztők</button>
+        <button routerLink="events" (click)="sidenav.toggle()">Események</button>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>

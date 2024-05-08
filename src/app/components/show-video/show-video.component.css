@@ -4,11 +4,9 @@
 }
 
 .icon {
-  width: 3rem;
-  height: 3rem;
-  font-size: 3rem;
+  width: 2rem;
+  height: 2rem;
+  font-size: 2rem;
+  padding-bottom: 3rem;
 }
 
-/* * {
-  @apply border-2 border-white;
-} */

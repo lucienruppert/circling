@@ -8,9 +8,18 @@ import { ShowVideoComponent } from '../show-video/show-video.component';
   styleUrl: './videos.component.css',
 })
 export class VideosComponent {
+  public videoData: Array<{ id: string; time: string }> = [
+    { id: 'pVJFjWSB_as', time: '2:55' },
+    { id: 'pVJFjWSB_as', time: '2:55' },
+    { id: 'pVJFjWSB_as', time: '2:55' },
+    { id: 'pVJFjWSB_as', time: '2:55' },
+  ];
+
   constructor(private dialog: Dialog) {}
 
-  public openDialog(): void {
-    this.dialog.open(ShowVideoComponent);
+  public openDialog(id: string): void {
+    this.dialog.open(ShowVideoComponent, {
+      data: { id },
+    });
   }
 }

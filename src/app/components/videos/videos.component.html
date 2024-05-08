@@ -1,1 +1,9 @@
-<button (click)="openDialog()">Híd</button>
+<span class="w-full inline pl-7 pt-3 leading-7">1991 óta szellemi úton.<br>Most itt tartok.</span>
+<main class="mt-6">
+  @for (video of videoData; track video ) {
+    <div class="thumbnail-container">
+      <img src="../../../assets/hid.jpg" (click)="openDialog(video.id)" class="thumbnail">
+      <span>{{ video.time }}</span>
+    </div>
+  }
+</main>
