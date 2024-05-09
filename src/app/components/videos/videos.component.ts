@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Dialog } from '@angular/cdk/dialog';
 import { ShowVideoComponent } from '../show-video/show-video.component';
+import videos from './videos';
 
 @Component({
   selector: 'app-videos',
@@ -8,12 +9,7 @@ import { ShowVideoComponent } from '../show-video/show-video.component';
   styleUrl: './videos.component.css',
 })
 export class VideosComponent {
-  public videoData: Array<{ id: string; time: string }> = [
-    { id: 'pVJFjWSB_as', time: '2:55' },
-    { id: 'pVJFjWSB_as', time: '2:55' },
-    { id: 'pVJFjWSB_as', time: '2:55' },
-    { id: 'pVJFjWSB_as', time: '2:55' },
-  ];
+  public videoData: Array<{ id: string; time: string; thumbnail: string }> = videos;
 
   constructor(private dialog: Dialog) {}
 

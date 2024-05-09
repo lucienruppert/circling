@@ -13,7 +13,7 @@ mat-sidenav-container {
 }
 
 mat-nav-list {
-  @apply flex flex-col w-40;
+  @apply flex flex-col w-44;
 }
 
 mat-nav-list * {

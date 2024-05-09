@@ -1,12 +1,16 @@
 :host {
   @apply flex flex-col items-center;
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 }
 
 .thumbnail {
-  @apply cursor-pointer h-40 w-60 rounded-lg mb-2;
+  @apply cursor-pointer h-40 w-60 rounded-md mb-2;
 }
 
-.thumbnail-container {
-  @apply flex flex-col items-center pb-10;
+.thumbnail-with-data {
+  @apply flex flex-col items-center;
+}
+
+.container {
+  @apply mt-6 w-2/3 flex flex-wrap gap-10 justify-center mb-20;
 }
