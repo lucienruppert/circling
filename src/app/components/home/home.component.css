@@ -1,4 +1,4 @@
 :host {
   @apply flex flex-col items-center;
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 }

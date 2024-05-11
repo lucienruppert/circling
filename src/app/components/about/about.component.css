@@ -1,4 +1,25 @@
 :host {
   @apply flex flex-col items-center;
-  height: calc(100vh - 60px);
+  min-height: calc(100vh - 60px);
 }
+
+main {
+  @apply mt-20;
+}
+
+img {
+  @apply ml-5;
+}
+
+@media (max-width: 768px) {
+  img {
+    @apply mb-5 ml-0;
+  }
+  main {
+    @apply mt-10;
+  }
+}
+
+/* * {
+  @apply border-2 border-white;
+} */

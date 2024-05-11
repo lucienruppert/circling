@@ -10,11 +10,6 @@ const videos = [
     thumbnail: '../../../assets/happiness.jpg',
   },
   {
-    id: 'EH-ZXVkXrdY',
-    time: '8:37',
-    thumbnail: '../../../assets/happiness.jpg',
-  },
-  {
     id: '2Lil2rhmiIM',
     time: '7:14',
     thumbnail: '../../../assets/fatigue.jpg',
@@ -87,7 +82,7 @@ const videos = [
   {
     id: '3mZM3u8p7Vk',
     time: '3:12',
-    thumbnail: '../../../assets/others.jpg',
+    thumbnail: '../../../assets/expectation.jpg',
   },
   {
     id: 'UYsE9aGTjuA',

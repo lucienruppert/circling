@@ -1,7 +1,6 @@
 ## TEENDŐK
 
-- Belistázni az összes videót. 
 - dot logo
 - favicon
-- Mire jó - menüpont
-
+- Mire jó / Mit nyerhetsz a Circlingből? - menüpont
+- Haszon - Előnyök
