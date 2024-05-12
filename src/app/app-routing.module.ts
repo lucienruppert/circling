@@ -6,6 +6,8 @@ import { VideosComponent } from './components/videos/videos.component';
 import { EventsComponent } from './components/events/events.component';
 import { VisionComponent } from './components/vision/vision.component';
 import { HomeComponent } from './components/home/home.component';
+import { ServicesComponent } from './components/services/services.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 const routes: Routes = [
   {
@@ -31,6 +33,14 @@ const routes: Routes = [
   {
     path: 'vision',
     component: VisionComponent,
+  },
+  {
+    path: 'services',
+    component: ServicesComponent,
+  },
+  {
+    path: 'contact',
+    component: ContactComponent,
   },
   { path: '**', redirectTo: '' },
 ];

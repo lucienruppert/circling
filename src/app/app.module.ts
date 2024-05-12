@@ -13,6 +13,8 @@ import { YouTubePlayerModule } from '@angular/youtube-player';
 import { ShowVideoComponent } from './components/show-video/show-video.component';
 import { VisionComponent } from './components/vision/vision.component';
 import { HomeComponent } from './components/home/home.component';
+import { ServicesComponent } from './components/services/services.component';
+import { ContactComponent } from './components/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,8 @@ import { HomeComponent } from './components/home/home.component';
     ShowVideoComponent,
     VisionComponent,
     HomeComponent,
+    ServicesComponent,
+    ContactComponent,
   ],
   imports: [
     BrowserModule,

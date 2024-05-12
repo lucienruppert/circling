@@ -1,11 +1,9 @@
 ## TEENDŐK
 
-- SZÍN
-
-- KAPCSOLAT - menupont
 
 - MIRE JÓ?- menüpont
 
-- SZOLGÁLTATÁSOK - 
-
 - favicon
+- Google Maaps integráció
+- Simple Pay integráció
+- Jitsy integráció ?
