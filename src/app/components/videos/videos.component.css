@@ -1,5 +1,5 @@
 :host {
-  @apply flex flex-col items-center;
+  @apply flex flex-col items-center bg-white;
   min-height: calc(100vh - 60px);
 }
 
@@ -12,5 +12,9 @@
 }
 
 .container {
-  @apply mt-6 w-2/3 flex flex-wrap gap-10 justify-center mb-20;
+  @apply mt-10 w-2/3 flex flex-wrap gap-10 justify-center mb-20;
+}
+
+.title {
+  color: var(--primary);
 }

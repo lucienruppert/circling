@@ -1,6 +1,11 @@
 ## TEENDŐK
 
-- dot logo
+- SZÍN
+
+- KAPCSOLAT - menupont
+
+- MIRE JÓ?- menüpont
+
+- SZOLGÁLTATÁSOK - 
+
 - favicon
-- Mire jó / Mit nyerhetsz a Circlingből? - menüpont
-- Haszon - Előnyök

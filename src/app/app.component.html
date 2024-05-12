@@ -9,10 +9,14 @@
       >
         <mat-icon>menu</mat-icon>
       </button>
-      <span routerLink="/" class="cursor-pointer brand">Circling és Authentic Relating</span>
+      <img src="../assets/dot-circle.svg" *ngIf="!isMobile" class="mr-2 cursor-pointer" routerLink="/">
+      <span routerLink="/" class="cursor-pointer brand"
+        >Circling és Authentic Relating</span
+      >
       <span class="menu-spacer"></span>
-      <div fxShow="true" fxHide.lt-md>
+      <div fxShow="true" fxHide.lt-md class="desktop-menu">
         <button mat-button routerLink="about">Rólam</button>
+        <button mat-button routerLink="vision">Vízió</button>
         <button mat-button routerLink="method">Módszer</button>
         <button mat-button routerLink="videos">Videók</button>
         <button mat-button routerLink="events">Események</button>
@@ -24,9 +28,12 @@
     <mat-sidenav #sidenav>
       <mat-nav-list>
         <button routerLink="about" (click)="sidenav.toggle()">Rólam</button>
+        <button routerLink="vision" (click)="sidenav.toggle()">Vízió</button>
         <button routerLink="method" (click)="sidenav.toggle()">Módszer</button>
         <button routerLink="videos" (click)="sidenav.toggle()">Videók</button>
-        <button routerLink="events" (click)="sidenav.toggle()">Események</button>
+        <button routerLink="events" (click)="sidenav.toggle()">
+          Események
+        </button>
       </mat-nav-list>
     </mat-sidenav>
     <mat-sidenav-content>

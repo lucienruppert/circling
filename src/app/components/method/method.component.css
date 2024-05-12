@@ -1,4 +1,9 @@
 :host {
-  @apply flex flex-col items-center;
+  @apply flex flex-col items-center bg-white;
   min-height: calc(100vh - 60px);
+  color: grey;
+}
+
+.title {
+  color: var(--primary);
 }

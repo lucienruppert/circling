@@ -6,7 +6,8 @@ import { Component } from '@angular/core';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  apiLoaded = false;
+  private apiLoaded: boolean = false;
+  public isMobile: boolean = false;
 
   ngOnInit() {
     if (!this.apiLoaded) {
@@ -15,5 +16,6 @@ export class AppComponent {
       document.body.appendChild(tag);
       this.apiLoaded = true;
     }
+    if (window.screen.width <= 768) this.isMobile = true;
   }
 }

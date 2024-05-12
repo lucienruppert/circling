@@ -1,9 +1,9 @@
-<span class="w-full inline pl-7 pt-3 leading-7">1991 óta szellemi úton<br>Most éppen itt tartok</span>
+<span class="text-4xl text-center mt-10 title">Videók</span>
 <main class="container">
   @for (video of videoData; track video ) {
     <div class="thumbnail-with-data">
       <img [src]="video.thumbnail" (click)="openDialog(video.id)" class="thumbnail">
-      <span class="text-gray-300 font-light text-sm">{{ video.time }}</span>
+      <span class="text-gray-400 text-sm">{{ video.time }}</span>
     </div>
   }
 </main>

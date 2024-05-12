@@ -8,10 +8,11 @@ import { EventsComponent } from './components/events/events.component';
 import { MethodComponent } from './components/method/method.component';
 import { MaterialModules } from './material.module';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
-import { HomeComponent } from './components/home/home.component';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import { YouTubePlayerModule } from '@angular/youtube-player';
 import { ShowVideoComponent } from './components/show-video/show-video.component';
+import { VisionComponent } from './components/vision/vision.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,8 +21,9 @@ import { ShowVideoComponent } from './components/show-video/show-video.component
     VideosComponent,
     EventsComponent,
     MethodComponent,
-    HomeComponent,
     ShowVideoComponent,
+    VisionComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

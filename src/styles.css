@@ -3,14 +3,15 @@
 @tailwind utilities;
 
 :root {
-  @apply text-white;
+  --primary: teal;
+  --secondary: #FFD700;
 }
 
 html,
 body {
   height: 100%;
   margin: 0;
-  background: rgba(33,33,33,255);
+  @apply bg-black;
 }
 
 body {
@@ -18,11 +19,6 @@ body {
 }
 
 .cdk-overlay-dark-backdrop {
-  background: rgba(33,33,33,255);
+  background: rgba(255,255,255,255);
 }
 
-/* cdk-dialog-container {
-  position: fixed;
-  top: 50%;
-  left: calc(50% - 144px);
-} */

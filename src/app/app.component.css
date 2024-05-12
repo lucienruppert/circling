@@ -12,8 +12,13 @@ mat-sidenav-container {
   height: 100%;
 }
 
+mat-sidenav {
+  background: var(--primary);
+}
+
 mat-nav-list {
   @apply flex flex-col w-44;
+  background: var(--primary);
 }
 
 mat-nav-list * {
@@ -22,10 +27,14 @@ mat-nav-list * {
 
 mat-toolbar {
   height: 60px;
+  background: var(--primary);
+  color: var(--secondary);
 }
 
 .brand {
   @apply text-lg;
 }
 
-
+.desktop-menu {
+  @apply flex gap-5;
+}
