@@ -1,9 +1,19 @@
 ## TEENDŐK
 
-
+- A HÍRLEVÉL JELENJEN MEG BETÖLTÉSKOR
+- A CIRCLINGRŐL - menüpont
 - MIRE JÓ?- menüpont
 
-- favicon
+TOMI
+- favicon =>  GOOGLE IT!
+
+- Ha megvan, Timivel beszélni.!!!!
+
+
 - Google Maaps integráció
 - Simple Pay integráció
 - Jitsy integráció ?
+- Hírlevél checkbox, Adatkezelési
+
+
+

@@ -4,6 +4,10 @@
   color: grey;
 }
 
+.apply {
+  line-height: 35px;
+}
+
 span {
   color: var(--primary);
   @apply text-xl mt-10;
@@ -26,4 +30,7 @@ main {
   main {
     @apply w-4/5;
   }
+  .title {
+  @apply mt-10;
+}
 }

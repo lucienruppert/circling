@@ -22,7 +22,7 @@ mat-nav-list {
 }
 
 mat-nav-list * {
-  @apply mb-4 text-start ml-5;
+  @apply mb-4 text-start ml-5 pl-0 py-0;
 }
 
 mat-toolbar {
