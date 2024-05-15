@@ -15,6 +15,7 @@ import { VisionComponent } from './components/vision/vision.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BenefitsComponent } from './components/benefits/benefits.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ContactComponent } from './components/contact/contact.component';
     HomeComponent,
     ServicesComponent,
     ContactComponent,
+    BenefitsComponent,
   ],
   imports: [
     BrowserModule,

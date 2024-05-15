@@ -8,6 +8,7 @@ import { VisionComponent } from './components/vision/vision.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
+import { BenefitsComponent } from './components/benefits/benefits.component';
 
 const routes: Routes = [
   {
@@ -41,6 +42,10 @@ const routes: Routes = [
   {
     path: 'contact',
     component: ContactComponent,
+  },
+  {
+    path: 'benefits',
+    component: BenefitsComponent,
   },
   { path: '**', redirectTo: '' },
 ];
