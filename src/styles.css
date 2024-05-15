@@ -26,6 +26,5 @@ body {
 button {
   background: var(--primary);
   @apply px-10 py-3 rounded-full text-white text-lg;
-
 }
 

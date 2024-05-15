@@ -1,15 +1,23 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
+import { Router, ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./home.component.css']
+  styleUrls: ['./home.component.css'],
 })
-export class HomeComponent implements OnInit {
+export class HomeComponent {
+  constructor(private router: Router, private route: ActivatedRoute) {}
 
-  constructor() { }
-
-  ngOnInit() {
+  public goToBenefitsPage(): void {
+    this.router.navigate(['benefits'], {
+      relativeTo: this.route,
+    });
   }
 
+  public goToVisionPage(): void {
+    this.router.navigate(['vision'], {
+      relativeTo: this.route,
+    });
+  }
 }

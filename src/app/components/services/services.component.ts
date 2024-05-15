@@ -9,10 +9,9 @@ import { Router, ActivatedRoute } from '@angular/router';
 export class ServicesComponent {
   constructor(private router: Router, private route: ActivatedRoute) {}
 
-  public goToPage(): void {
+  public goToContactPage(): void {
     this.router.navigate(['..', 'contact'], {
       relativeTo: this.route,
     });
   }
-
 }

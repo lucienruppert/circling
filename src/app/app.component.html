@@ -19,15 +19,21 @@
         >Circling és Authentic Relating</span
       >
       <span class="menu-spacer"></span>
-      <div fxShow="true" fxHide.lt-md class="desktop-menu">
-        <button mat-button routerLink="about">Rólam</button>
-        <button mat-button routerLink="vision">Vízió</button>
-        <button mat-button routerLink="method">Módszer</button>
-        <button mat-button routerLink="benefits">Mire jó?</button>
-        <button mat-button routerLink="services">Szolgáltatások</button>
-        <button mat-button routerLink="videos">Videók</button>
-        <button mat-button routerLink="events">Események</button>
-        <button mat-button routerLink="contact">Kapcsolat</button>
+      <div fxShow="true" fxHide.lt-md>
+        <button routerLink="about" routerLinkActive="active">Rólam</button>
+        <button routerLink="vision" routerLinkActive="active">Vízió</button>
+        <button routerLink="method" routerLinkActive="active">Módszer</button>
+        <button routerLink="benefits" routerLinkActive="active">
+          Mire jó?
+        </button>
+        <button routerLink="services" routerLinkActive="active">
+          Szolgáltatások
+        </button>
+        <button routerLink="videos" routerLinkActive="active">Videók</button>
+        <button routerLink="events" routerLinkActive="active">Események</button>
+        <button routerLink="contact" routerLinkActive="active">
+          Kapcsolat
+        </button>
       </div>
     </mat-toolbar-row>
   </mat-toolbar>

@@ -9,6 +9,7 @@ import { MailerLiteService } from './services/MailerLite.service';
 export class AppComponent {
   private apiLoaded: boolean = false;
   public isMobile: boolean = false;
+  public activeMenu: string = '';
 
   ngOnInit() {
     if (!this.apiLoaded) {
@@ -19,6 +20,4 @@ export class AppComponent {
     }
     if (window.screen.width <= 768) this.isMobile = true;
   }
-
-
 }
