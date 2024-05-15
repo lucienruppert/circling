@@ -16,6 +16,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BenefitsComponent } from './components/benefits/benefits.component';
+import { MailerLiteService } from './services/MailerLite.service';
 
 @NgModule({
   declarations: [
@@ -38,7 +39,7 @@ import { BenefitsComponent } from './components/benefits/benefits.component';
     FlexLayoutModule,
     YouTubePlayerModule,
   ],
-  providers: [provideAnimationsAsync()],
+  providers: [provideAnimationsAsync(), MailerLiteService],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MailerLiteService } from './services/MailerLite.service';
 
 @Component({
   selector: 'app-root',
@@ -18,4 +19,6 @@ export class AppComponent {
     }
     if (window.screen.width <= 768) this.isMobile = true;
   }
+
+
 }
