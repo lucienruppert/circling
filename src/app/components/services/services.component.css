@@ -14,7 +14,7 @@ p {
 }
 
 .title {
-  @apply mt-20;
+  @apply mt-10;
   color: var(--primary);
 }
 

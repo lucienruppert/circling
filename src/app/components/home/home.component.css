@@ -13,16 +13,17 @@ img {
 }
 
 .title {
-  @apply mt-20 text-3xl;
+  line-height: 50px;
   color: var(--primary);
 }
 
 @media (max-width: 768px) {
-  main, .title {
+  main,
+  .title {
     @apply w-4/5;
   }
   .title {
-    @apply mt-10 text-2xl;
+    @apply text-2xl;
   }
   img {
     @apply mb-5 float-none w-full ml-0;
