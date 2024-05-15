@@ -6,7 +6,6 @@
 - MIRE JÓ?- menüpont
 
 TOMI
-- favicon =>  GOOGLE IT!
 - Ha megvan, Timivel beszélni.!!!!
 
 - Google Maaps integráció
