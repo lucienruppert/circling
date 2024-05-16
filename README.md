@@ -1,8 +1,9 @@
 ## TEENDŐK
 
-- A HÍRLEVÉL JELENJEN MEG BETÖLTÉSKOR (TOMI)
-- A CIRCLINGRŐL - menüpont
-- MIRE JÓ?- menüpont
+- MÓDSZER - menüpont
+- HÍRLEVÉL
+  1. Értsd meg sorról sorra
+  2. Alakítsd át, hogy először vegye le, a már ott lévőket, aztán meg addolja a pagehez.
 
 TOMI
 - Ha megvan, Timivel beszélni.!!!!

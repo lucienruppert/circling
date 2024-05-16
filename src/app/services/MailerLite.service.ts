@@ -13,7 +13,7 @@ export class MailerLiteService {
     document.head.appendChild(script);
 
     (window as any)['ml'] =
-      (window as any)['ml'] ||
+      // (window as any)['ml'] ||
       function () {
         ((window as any)['ml'].q = (window as any)['ml'].q || []).push(
           arguments
