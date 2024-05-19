@@ -8,6 +8,10 @@ span  {
   @apply inline-block;
 }
 
+.text {
+  @apply ml-5;
+}
+
 main {
   @apply w-1/2;
 }
