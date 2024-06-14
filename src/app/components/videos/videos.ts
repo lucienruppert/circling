@@ -1,5 +1,10 @@
 const videos = [
   {
+    id: 'qqMOyMe81C4',
+    time: '2:44',
+    thumbnail: '../../../assets/connection-heals.jpeg',
+  },
+  {
     id: '0HirACmTzEU',
     time: '5:27',
     thumbnail: '../../../assets/authentic.jpeg',
