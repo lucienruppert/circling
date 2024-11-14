@@ -25,6 +25,14 @@ body {
 
 button {
   background: var(--primary);
-  @apply px-10 py-3 rounded-full text-white text-lg;
+  color: var(--secondary);
+  border: 1px solid var(--secondary);
+  @apply px-10 py-2 text-xl rounded-lg cursor-pointer;
+}
+
+button:hover {
+  background: var(--secondary);
+  color: var(--primary);
+  //border: 1px solid var(--secondary);
 }
 

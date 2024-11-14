@@ -17,6 +17,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { BenefitsComponent } from './components/benefits/benefits.component';
 import { MailerLiteService } from './services/MailerLite.service';
+import { SubscriptionComponent } from './components/subscription/subscription.component';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -31,6 +33,7 @@ import { MailerLiteService } from './services/MailerLite.service';
     ServicesComponent,
     ContactComponent,
     BenefitsComponent,
+    SubscriptionComponent
   ],
   imports: [
     BrowserModule,
@@ -38,6 +41,7 @@ import { MailerLiteService } from './services/MailerLite.service';
     MaterialModules,
     FlexLayoutModule,
     YouTubePlayerModule,
+    FormsModule
   ],
   providers: [provideAnimationsAsync(), MailerLiteService],
   bootstrap: [AppComponent],
