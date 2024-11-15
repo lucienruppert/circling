@@ -33,6 +33,5 @@ button {
 button:hover {
   background: var(--secondary);
   color: var(--primary);
-  //border: 1px solid var(--secondary);
 }
 

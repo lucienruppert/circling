@@ -1,3 +1,4 @@
+import { SubscriptionService } from './../../services/Subscription.service';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -8,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
 export class SubscriptionComponent implements OnInit {
   public email: string = '';
 
-  constructor() { }
+  constructor(private subscription: SubscriptionService) { }
 
   ngOnInit() {
   }

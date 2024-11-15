@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutComponent } from './components/about/about.component';
 import { VideosComponent } from './components/videos/videos.component';
-import { EventsComponent } from './components/events/events.component';
 import { MethodComponent } from './components/method/method.component';
 import { MaterialModules } from './material.module';
 import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
@@ -14,9 +13,6 @@ import { ShowVideoComponent } from './components/show-video/show-video.component
 import { VisionComponent } from './components/vision/vision.component';
 import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
-import { ContactComponent } from './components/contact/contact.component';
-import { BenefitsComponent } from './components/benefits/benefits.component';
-import { MailerLiteService } from './services/MailerLite.service';
 import { SubscriptionComponent } from './components/subscription/subscription.component';
 import { FormsModule } from '@angular/forms';
 
@@ -25,14 +21,11 @@ import { FormsModule } from '@angular/forms';
     AppComponent,
     AboutComponent,
     VideosComponent,
-    EventsComponent,
     MethodComponent,
     ShowVideoComponent,
     VisionComponent,
     HomeComponent,
     ServicesComponent,
-    ContactComponent,
-    BenefitsComponent,
     SubscriptionComponent
   ],
   imports: [
@@ -43,7 +36,7 @@ import { FormsModule } from '@angular/forms';
     YouTubePlayerModule,
     FormsModule
   ],
-  providers: [provideAnimationsAsync(), MailerLiteService],
+  providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
 })
 export class AppModule {}
