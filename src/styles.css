@@ -35,3 +35,11 @@ button:hover {
   color: var(--primary);
 }
 
+.mdc-snackbar__surface {
+  background-color: var(--secondary) !important;
+}
+
+.mdc-snackbar__label {
+  color: var(--primary) !important;
+  @apply text-center;
+}

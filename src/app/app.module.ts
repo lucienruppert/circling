@@ -15,6 +15,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
 import { SubscriptionComponent } from './components/subscription/subscription.component';
 import { FormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -34,7 +35,8 @@ import { FormsModule } from '@angular/forms';
     MaterialModules,
     FlexLayoutModule,
     YouTubePlayerModule,
-    FormsModule
+    FormsModule,
+    HttpClientModule
   ],
   providers: [provideAnimationsAsync()],
   bootstrap: [AppComponent],
